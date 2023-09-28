@@ -43,7 +43,7 @@ except URLError as e:
     streamlit.error()
 
 #don't run anything past here while we trobleshoot
-streamlit.stop()
+#streamlit.stop()
 streamlit.header("The fruit load list contains:")
 # snowflake-related functions
 def get_fruit_load_list():
